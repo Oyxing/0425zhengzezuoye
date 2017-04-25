@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var email = prompt("输入邮箱号");
+			var reg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/
+			if(reg.test(email)==true){
+				alert("您的邮箱为"+email)
+			}else{
+				alert("重新输入邮箱号")
+			}		
+		</script>
+	</body>
+</html>
